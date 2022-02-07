@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Crash Course</title>
+
+    <!-- Przykład internalowego CSa -->
+    <style type="text/css"> 
+        h2{
+            color: red;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+    <div>
+        <h1 style="color:rgb(255, 0, 212)">What is CSS?</h1> <!-- Przykład inlinowego cssa-->
+        <h1>What is CSS?</h1>
+
+        <ul>
+            <li><strong>Cascading Stylesheets</strong></li>
+            <li><b>NOT</b> a programming language</li>
+            <li>Stylesheet/Styling language</li>
+            <li>Used for website layout and design</li>
+            <li>Can be extended with Sass / Less</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Methods For Adding CSS</h2>
+
+        <ul>
+            <li><b>Inline CSS:</b> Directly in the HTML element</li>
+            <li><b>Internal CSS:</b> Using <"style"> tags within a single document</li>
+            <li><b>External CSS:</b> Linking an external .css file</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>The hierarchy of css adding methods</h2>
+        <ol>
+            <li><b>Inline CSS</b></li>
+            <li><b>Internal CSS</b></li>
+            <li><b>External CSS</b></li>
+        </ol>
+    </div>
+
+    <div>
+        <img src="images/1.png">
+        <img src="images/2.png"> 
+        <img src="images/3.png">
+    </div>
+
+
+<div class="container">
+    <div class="box-1">
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, deserunt odit laboriosam placeat, dignissimos cupiditate voluptas quo unde velit nesciunt, quis possimus dicta voluptatem ipsa. Aut consectetur nisi fugiat reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat possimus ea fugit quas. Ad nisi impedit architecto, quidem doloribus quasi laborum obcaecati officia, neque facilis tempore quod numquam ipsa veritatis.</p>
+    </div>
+    <div class="box-1">
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, deserunt odit laboriosam placeat, dignissimos cupiditate voluptas quo unde velit nesciunt, quis possimus dicta voluptatem ipsa. Aut consectetur nisi fugiat reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat possimus ea fugit quas. Ad nisi impedit architecto, quidem doloribus quasi laborum obcaecati officia, neque facilis tempore quod numquam ipsa veritatis.</p>
+    </div>
+    <div class="box-1">
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, deserunt odit laboriosam placeat, dignissimos cupiditate voluptas quo unde velit nesciunt, quis possimus dicta voluptatem ipsa. Aut consectetur nisi fugiat reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat possimus ea fugit quas. Ad nisi impedit architecto, quidem doloribus quasi laborum obcaecati officia, neque facilis tempore quod numquam ipsa veritatis.</p>
+    </div>
+
+
+<div>
+    <img src="images/4.png" alt="">
+</div>
+<div>
+    <img src="images/5.png" alt="">
+</div>
+
+<div id="box-model">
+    Margin: top bottom right left <br>
+    Padding: top bottom right left
+</div>
+
+<div class="container">
+    <div class="box-model">
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, deserunt odit laboriosam placeat, dignissimos cupiditate voluptas quo unde velit nesciunt, quis possimus dicta voluptatem ipsa. Aut consectetur nisi fugiat reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat possimus ea fugit quas. Ad nisi impedit architecto, quidem doloribus quasi laborum obcaecati officia, neque facilis tempore quod numquam ipsa veritatis.</p>
+    </div>
+</div>
+
+
+<div class="box-2">
+        <h1>Goodbye World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, deserunt odit laboriosam placeat, dignissimos cupiditate voluptas quo unde velit nesciunt, quis possimus dicta voluptatem ipsa. Aut consectetur nisi fugiat reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat possimus ea fugit quas. Ad nisi impedit architecto, quidem doloribus quasi laborum obcaecati officia, neque facilis tempore quod numquam ipsa veritatis.</p>
+        <a class="button" href="#">Read more</a>
+    </div>
+
+    <div class="categories">
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="#">Category 1</a></li>
+            <li><a href="#">Category 2</a></li>
+            <li><a href="#">Category 3</a></li>
+            <li><a href="#">Category 4</a></li>
+        </ol>
+    </div>
+
+    <form class="my-form">
+        <div class="form-group">
+            <label>Name:</label>
+            <input type="text" name="name">
+        </div>
+        <div class="form-group">
+            <label>E-mail:</label>
+            <input type="text" name="name">
+        </div>
+        <div class="form-group">
+            <label>Message:</label>
+            <textarea name="message"></textarea>
+        </div>
+        <div>
+        <input class="button" type="submit" value="Sumbit" name="">
+         </div>
+    </form>
+
+    <div class="block">
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus modi, ipsa sint dolorum quo nemo dolore laudantium. Error alias repellat iusto totam velit consectetur laudantium molestiae unde voluptate. Quis, asperiores!</p>
+    </div>
+    <div class="block">
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus modi, ipsa sint dolorum quo nemo dolore laudantium. Error alias repellat iusto totam velit consectetur laudantium molestiae unde voluptate. Quis, asperiores!</p>
+    </div>
+    <div class="block">
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus modi, ipsa sint dolorum quo nemo dolore laudantium. Error alias repellat iusto totam velit consectetur laudantium molestiae unde voluptate. Quis, asperiores!</p>
+    </div>
+
+    <div class="clr"></div>
+ 
+    <div id="main-block">
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus modi, ipsa sint dolorum quo nemo dolore laudantium. Error alias repellat iusto totam velit consectetur laudantium molestiae unde voluptate. Quis, asperiores!</p>
+   
+    </div>
+
+    <div id="sidebar">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus modi, ipsa sint dolorum quo nemo dolore laudantium. Error alias repellat iusto totam velit consectetur laudantium molestiae unde voluptate. Quis, asperiores!</p>
+   
+    </div>
+
+<div id="positioning">
+    <h2>Positioning in CSS</h2>
+    <ul>
+        <li><b>Static</b>- It is default option. It just render elements in order of document flow  </li>
+        <li><b>Relative</b>- The elements are in normal position, they falls naturally but we can add properties like top, left, right, bottom and we can push it to where we want </li>
+        <li><b>Absolute</b>- Allow us to target whatever position we want inside of a relative element </li>
+        <li><b>Fixed</b>- It is a fixed position to the browser window, so no matter how much we scroll, where we are on the page it'll always be in the same position </li>
+        <li><b>Initial</b>- Sets the property to its default value </li>
+        <li><b>Inherit</b>- It inherit whatever the property of its parent element. INHERIT = DZIEDZICZYĆ </li>
+    </ul>
+</div>
+
+<div class="clr"></div>
+
+<div class="p-box">
+    <h1>Hello</h1>
+    <h2>Goodbye</h2>
+</div>
+<ul class="my-list">
+    <li>List Item</li>
+    <li>List Item</li>
+    <li>List Item</li>
+    <li>List Item</li>
+    <li>List Item</li>
+    <li>List Item</li>
+    <li>List Item</li>
+    <li>List Item</li>
+    <li>List Item</li>
+    <li>List Item</li>
+</ul>
+
+<a class="fix-me button" href="#">Hello</a>
+
+
+
+<br>
+<br>
+<br>
+<p>Jeeli chce uzyc position: absolute, musi taki element posiadać element nadrzędny, który pozycjonowany będzie jako relative</p>
+
+
+</div> <!-- </container> -->
+    
+
+
+
+
+
+<div style="margin-top:500px;"></div>
+</body>
+</html>
