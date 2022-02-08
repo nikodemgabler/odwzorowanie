@@ -1,0 +1,84 @@
+*{
+    font-size: 40px;
+}
+
+h4{
+    font-size: 18px;
+    margin: 20px 10px 0 0 ;
+}
+
+.parent{
+    padding: 10px;
+    background-color: rgb(50, 143, 250);
+}
+.parent div{
+    padding: 10px;
+}
+
+.parent div:first-child{
+    background-color: rgb(111, 252, 158);
+}
+.parent div:nth-child(2){
+    background-color: rgb(216, 84, 84);
+}
+.parent div:last-child{
+    background-color: rgb(255, 113, 208);
+}
+
+
+
+
+
+
+
+.parent{
+
+}
+
+.child-one{
+    position: relative;
+    top: 20px;
+}
+
+.child-two{
+    
+
+
+}
+.child-three{
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#notes{
+    position: relative;
+    bottom: 0;
+    font-size: 14px;
+}
+.notes2 p{
+    font-size: 14px !important;
+    margin: 0;
+}
+.notes2 p b{
+    font-size: 14px !important;
+}
+.notes2{
+    font-size: 14px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Positions</title>
+</head>
+<body>
+    
+
+    <div class="parent">
+        Parent
+        <div class="child-one child">One</div>
+        <div class="child-two child">Two</div>
+        <div class="child-three child">Three</div>
+    </div>
+
+
+
+    <div id="notes">
+        <div class="notes2">
+
+
+<h4>Relative</h4>
+Zachowuje się jak static jednak mozna go przesuwać uzywając: top / right / bottom / left.
+<p>1. Wyciąga element ponad flow dokumentu, dlatego <b>przy przesuwaniu, nie wpływa na pozycje innych elementów</b></p>
+<p>2. Wyciąga element z flow</p>
+<p>3. <b>Najczesciej uzywa się go jako "parenta"</b>, poniewaz przez wyciagniecie z flow dokumentu trudno stylowac rzeczy dookola niego</p>
+
+
+
+
+<h4>Absolute</h4>
+Pozycjonuje element, jakby został kompletnie usunięty.
+<p>1. Usuwa element z flow dokumentu, dlatego przy renderowaniu zostaje pominiety</p>
+<p>2. Jest uzyteczny w momencie kiedy chcemy coś ustawić w danej pozycji a nie chcemy ruszać innych elementów</p>
+<p>3. Element pozycjonuje się w stosunku do "parenta" lub całego dokumentu</p>
+
+
+
+ <h4>Fixed</h4>
+ Pozycjonuje bardzo podobnie do absolute, jednak jest pare roznic.
+ <p>1. Ignoruje pozycję relatywną "parenta"</b></p>
+ <p>2. Zawsze bazuje na całym elemencie HTML"</b></p>
+ <p>3. Zawsze zostaje w tym samym miejscu podczas scrollowania</b></p>
+
+ <h4>Sticky</h4>
+ Jest kombinacją pozycji relative i fixed.
+ <p>1. Nie ignoruje pozycji "parenta"</p>
+ <p>2. Zostaje w tym samym miejscu podczas scrollowania </p>
+
+
+</div>
+    </div>
+</body>
+</html>
