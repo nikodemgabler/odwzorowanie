@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin:0;
+    font-size: 40px;
+}
+
+.box-one{
+    background-color: red;
+    border: 20px solid #9b51e0;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    margin: 60px;
+    box-sizing: border-box;
+}
+
+.box-two{
+    background-color: #2D9CDB;
+    border: 30px solid #27AE60;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 60px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.notes{
+    position: relative;
+    bottom: 0;
+}
+.notes h2{
+    font-size: 18px;
+}
+.notes p{
+    font-size: 18px;
+}
+.notes p b{ 
+    font-size: 18px;
+}

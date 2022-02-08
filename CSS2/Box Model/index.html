@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Box Model</title>
+</head>
+<body>
+    
+    <div class="box-one">
+        One
+    </div>
+    <div class="box-two">
+        Two
+    </div>
+
+
+
+    <div class ="notes">
+    <br><br><br><h2>Notes</h2>
+    <p>Everything in CSS is a box of either a rectangular shape or a square shape</p>
+    <p>No matter is it a text, span, div, button - every single element in CSS is a box and these boxes have diffrent parts.</p>
+    <p>You have the actual content of the box which in our case is text1 and text2</p>
+    <p>We have the <b>padding, border and the margin</b> of the box</p> <br>
+    <p>The easiest thing to understand is the actual content of the box if you do nothing to a box at all, <b>The content of the box is just going to fill up the space inside of the box and the box will be no larger than the content but if u start adding different things to the box then you can start to expand the size of your box.</b> One of the easiest ways to make your box bigger <b>is to use padding</b> </p>
+    
+    <br>
+    <p><b>Padding - </b>występuje w tle elementu i obejmuje cały obszar az do borderu. Obejmuje cały content, który jest najbardziej zagniezdzony w box model. Padding obejmuje tło, dlatego większość buttonów jest stylowanych przy jego pomocy. Pozwala to na poszerzenie buttonu, przez co jest większy niz text. <b>Najczęściej uzywany do tworzenia tła.</b></p> <br>
+
+    <p><b>Border - </b>występuje on wokół paddingu naszego elementu. Tak więc mamy w tym wypadku 20px paddingu, wokół ktorego występuje 20px borderu</p><br>
+
+    <p><b>Margin - </b>Jest to ostatni element występujący w Box Model. Po dodaniu 20px marginesu mozemy dostrzeć, ze nasz box zwiekszyl się o 20px poza granicami borderu. <b>Marginesu zazwyczaj uzywamy do oddzielenia od siebie dwóch elementów</b></p>
+
+    <p>Jezeli mamy dwa boxy, ktore sa przy sobie, jezeli w jednym ustawimy margines np. 30 i w drugim 30 to nie beda one odsuniete od siebie o 60px tylko o 30px, poniewaz marginesy zapadaja sie jeden w drugim. Zawsze bedzie uzyty margin, ktory ma wieksza wartosc.  </p>
+
+    <p><b>Height i Width</b> są sumą, czyli jezeli mamy ustawione je na 100px, to dodajac do tego 20px paddingu i 20px borderu, otrzymujemy height i width w postaci 180px. <b>Margin się nie wlicza w wielkosc elementu.</b> </p>
+    <p><b>Jezeli chcemy to zmienic</b> i chcemy aby height: 100px i width:100px były właściwymi wartościami, uzywamy wtedy komendy <b>box-sizing: border-box;</b> - która sprawia, ze border i padding zamiast się dodawać to odejmują nam rozmiar od naszego <b>contentu</b>, czyli gdy width=100px i height=100px a padding=20px i border=20px // height i width same w sobie wynoszą po 20px, natomiast w sumie width/height + padding + border = 100px x 100px czyli tak jak mamy ustawione w css </p>
+
+    </div>
+</body>
+</html>
