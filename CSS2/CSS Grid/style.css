@@ -1,0 +1,89 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 250px;
+    /* grid-template-rows: 150px; */
+    /* grid-auto-rows: 200px; */
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-row-gap: 20px; */
+    /* grid-column-gap: 20px; */
+    grid-gap: 20px;
+    grid-template-areas: "header";
+}
+
+.grid-item-1{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+display:grid;
+    1. Tworzy grid z kontenera. Grid sam w sobie nie definuje zadnych wierszy i kolumn. Deafultowo wyglada on tak  
+       samo jak divy w srodku kontenera.
+
+
+    2. Nalezy wiec zdefiniowac konkretne kolumny lub wiersze dla naszego gerida. Tworzymy to poprzez:
+
+grid-template-columns: [px / % / em ...] [] [] - Tworzymy liste kolumn roznych rozmiarow w zaleznosci od tego ile ich chcemy
+                                                 kolumny odpowiadaja za szerokosc
+
+    3. Jezeli chcemy aby kolumny byly elastyczne i bazowaly na elementach w srodku nich, uzywamy wtedy "fraction unit", ktory posiada skrot fr. Są to odpowiedniki np. flex-grow: 2 1. 
+
+ grid-template-columns: 2fr 1fr;
+ grid-template-columns: repeat(4, 1fr) - tworzymy 4 kolumny o wielkosci 1fr
+
+    4. Aby ustawic sobie wiersze, odpowiedzialne rowniez za wysokosc wpisujemy: 
+
+grid-template-rows: 150px 200px - Sprawia ze kazda kolumna w pierwszym wierszu bedzie miala 150px a w drugim 200px
+grid-auto-rows: 150px - sprawi, ze wszystkie pozostale wierwsze beda mialy 150px
+
+grid-auto-rows: minmax(150px, auto); - Pozwala ustawic minimalna i maxymalna wysokosc
+
+
+    5. ODSTĘPY POMIĘDZY WIERSZAMI I KOLUMNAMI
+
+grid-row-gap: 20px;      - zyskujemy 20px odstepu pomeidzy wierszami
+grid-column-gap: 20px;   - zyskujemy 20px odstepu miedzy kolumnami
+grid-gap: 20px;          - zyskujemy 20px odstepu miedzy wierszami i kolumnami
+
+
+    6. GRID-TEMPLATE-ARES - ZEZWALA NA DEFINIOWANIE WIERSZY ZA POMOCA PRZYPISYWANIA IDENTYFIKATOROW
+
+*/
+
+
+
+
+
+
+
+
+
+
+.notes2{
+    color: white;
+}

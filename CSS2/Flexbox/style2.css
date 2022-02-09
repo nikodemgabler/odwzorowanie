@@ -1,0 +1,110 @@
+@media(min-width:468px)
+{    
+    .container-1{
+        display: flex; /* Pozwala uruchomic flexboxa */
+        /* align-items: stretch; */
+    }
+    .container-2{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+}
+}
+.container-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.container-1 div, .container-2 div, .container-3 div{
+    border:1px #ccc solid;
+    padding: 10px;
+}
+
+.box-1{
+    flex: 2; /* ustalamy jaka czesc ma zabierac dany box */
+    order: 2; /* Jezeli chcemy nasza glowna kolumne ustawic na srodku msuimy uzywac wtedy komendy order, a reszte dopasowac*/
+}
+
+.box-2{
+    flex: 1;
+    order: 1;
+}
+
+.box-3{
+    flex:1;
+    order: 3;
+}
+
+
+.container-box-2{
+    flex-basis: 27%;
+}
+.container-box-3{
+    flex-basis: 12%;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+                                                    /* align-items: */
+/* Jezeli chcemy cos wypozycjonowac, bez uzywania automatic height, przechodzimy wtedy do naszego kontenera i uzywamy komendy 
+align-items: flex-start  - pozycjonuje nam do góry kontenera
+align-items: flex-end  - pozycjonuje nam do dołu kontenera 
+align-items: center  - pozycjonuje nam do środka kontenera */
+/* align-items: stretch; - default  */
+
+                                                 /*    Changing directions     */
+/* flex-direction: column - robi uklad kolumnowy; */
+/* flex-direction: row; - default - uklad wierszowy */
+
+
+
+                                                        /* justify-content */
+/* justify-content: flex-start; -     pozycjonuje w poziomie - od lewej     
+/* justify-content: flex-end;    -    pozycjonuje w poziomie - od prawej   
+/* justify-content: space-between; -  pozycjonuje w poziomie - po calej szerokosci + dodaje margin wewnetrzny
+/* justify-content: space-around; -   pozycjonuje w poziomie - po calej szerokosci + dodaje margin zewnetrzny */
+
+
+                                                        /* flex-basis */
+                    /* Jest bardziej uzteczne niz "width" w kontekscie responsywnosci */
+
+
+                                                    /* flex-wrap: wrap;
+                                    Gdy nie ma juz miejsca, wrapuje danego diva w dol */
+
+
+
+
+
+
+
+
+
+
+
+
+
+#notes{
+    position: relative;
+    bottom: 0;
+    font-size: 14px;
+}
+.notes2 p{
+    font-size: 14px !important;
+    margin: 0;
+}
+.notes2 p b{
+    font-size: 14px !important;
+}
+.notes2{
+    font-size: 14px;
+}
