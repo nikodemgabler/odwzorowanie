@@ -11,6 +11,8 @@
     padding: 40px;
     margin: 0;
     border: 1px solid #fff;
-    
+}
+.grid-item1{
+    background-color: rgb(255, 29, 29);
 }
 

@@ -1,0 +1,176 @@
+*{
+    font-size:15px;
+}
+
+h2{
+    margin:0;
+}
+
+.pixels, .vh{
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+
+
+.box{
+    background-color: red;
+    border: 2px solid black;
+    font-size: 25px;
+    margin-bottom: 5px;
+    
+}
+.parent, .parent2, .parent3{
+    padding: 4px;;
+    border: 2px solid black;
+}
+
+.parent{
+    width: 135px;
+}
+
+.parent2{
+    width: 100px;
+}
+.parent3{
+    font-size: 30px;
+}
+
+
+.fifty-percent{
+    width: 50%;
+}
+
+.one-hundred-pixels{
+    width: 100px;
+}
+
+.fifty-vw{
+    width: 50vw;
+}
+
+.twenty-five-vh{
+    height: 25vh;
+}
+
+
+
+.one-em{
+    font-size: 1em;
+}
+
+.one-rem{
+    font-size: 1rem;
+}
+
+.two-em{
+    font-size: 2em;
+}
+
+.two-rem{
+    font-size: 2rem;
+}
+
+.two-hundred-percent{
+    font-size: 200%
+}
+
+
+.em-icon{
+    width: 1em;
+    height: 1em;
+}
+
+.rem-icon{
+    width: 1rem;
+    height: 1rem;
+}
+
+.icon-container, .large{
+    font-size: 30px;
+}
+
+
+
+
+/*
+
+1. Pixel Unit       [px] - is going to be an absoulte width which is always going to be the same no matter where it's defined
+2. Percentage Unit  [%]  - it's always going to based off its parent size 
+
+3. View Width       [vw] - 1vw odpowada 1% CAŁEGO EKRANU
+4. View Height      [vh] - 1vh odpowiada 1% CAŁEGO EKRANU
+RÓZNICA POMIĘDZY % a VW / VH jest taka, ze procent jest zawsze relatywny do parenta, a vw, vh nie
+
+5. Rem Unit        [rem] - Odnosi się do font-sizu STRONY
+6. Em Unit         [em]  - Odnosi się do font-sizu PARENTA
+Są to jednostki RELATYWNE DO WYZNACZONEGO FONT-SIZU 
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#notes{
+    position: relative;
+    bottom: 0;
+    font-size: 14px;
+}
+.notes2 p{
+    font-size: 14px !important;
+    margin: 0;
+}
+.notes2 p b{
+    font-size: 14px !important;
+}
+.notes2{
+    font-size: 14px;
+}

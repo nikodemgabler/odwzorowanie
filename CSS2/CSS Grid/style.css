@@ -7,13 +7,46 @@
     /* grid-row-gap: 20px; */
     /* grid-column-gap: 20px; */
     grid-gap: 20px;
-    grid-template-areas: "header";
+    /* grid-template-areas:
+    "header header"
+    "sidebar content"
+    "sidebar content" */
+
+    /* justify-content: center; */
+    /* justify-content: stretch; */
+
+    /* align-content: center; */
+    /* align-content: stretch; */
+    /* height: 100vh; */
+
+    justify-items: center;
+    align-items: center;
+
 }
 
-.grid-item-1{
-    background-color: red;
-}
+ .grid-item1{
+    /* grid-column-start: 1; */
+    /* grid-column-end: 3; */
+    /* grid-column-end: -1; */
+    /* grid-column: 1 / -1; */
+    /* grid-column: span 2; */
 
+    align-self: start;
+}
+.grid-item2{
+    /* grid-row-start: 2; */
+    /* grid-row-end: 4; */
+    
+    background-color: green;
+}
+.grid-item3{
+    /* grid-row-start: 2; */
+    /* grid-row-end: 4; */
+    /* grid-row: span 2; */
+
+    background-color: yellow;
+    align-self: end;
+}
 
 
 
@@ -73,7 +106,68 @@ grid-gap: 20px;          - zyskujemy 20px odstepu miedzy wierszami i kolumnami
 
     6. GRID-TEMPLATE-ARES - ZEZWALA NA DEFINIOWANIE WIERSZY ZA POMOCA PRZYPISYWANIA IDENTYFIKATOROW
 
+grid-template-areas: "header header" - 2 kolumny przez header
+                     "sidebar content" - W kontenerze mozemy ustalic ile kolumn i wierszyma byc zajetych przez opisanego diva
+                     "sidebar content" - 2 wiersze przez sidebar i 2 przez content (1div = 2xsidebar i 1div = 2x content)
+
+grid-area: header; - W danym divie wpisujemy jaka ma miec nazwę a następnie dostoswuje się on do ustaleń grid-template-ares
+
+
+
+    7.  GRID-COLUMND-START i GRID-COLUMN-END - MOZEMY DZIEKI NIM WYGODNIEJ TWORZYC TO SAMO CO W PUNKCIE 6. 
+
+grid-column-start: 1;
+grid-column-end: 3;    - W naszym przypadku jezeli kolumna ma byc na cala strone, to musismy dac wartosc 3, bo kazdy gap 
+                         liczy sie jako kolumna. MOZNA TO JEDNAK OBEJSC WPISUJAC WARTOSC -1.
+
+grid-column-start: 1;
+grid-column-end: -1
+lub
+grid-column: 1 / -1; 
+
+grid-column: span 2;    - SPAN pozwala laczyc taka liczbe kolumn jaka wpiszemy 
+grid-column: span 2;    - SPAN pozwala laczyc taka liczbe wieszy jaka wpiszemy 
+
+
+
+    8. ŚRODKOWANIE GRIDOWEGO CONTENERA 
+Działa to podobnie jak w przypadku Flexboxa i uzywanie align-items / justify-items. W naszym przypadku mamy dwa typy: 
+- elementy 
+- kontent 
+
+justify-content: start;  - poziomo do lewej
+justify-content: center; - poziomo do srodka
+justify-content: end;    - poziomo do prawej
+justify-content: streetch;    - poziomo od lewej do prawej
+justify-content: space-around;    - odstep pomiedzy
+
+align-content: start; - pionowo do gory
+align-content: center; - pionowo do srodka
+align-content: end; - pionowo do dolu
+align-content: streetch; - pionowo do gory do dolu
+
+
+    9. ŚRODKOWANIE ELEMENTÓW WE WNĘTRZU KONTENERA
+
+.grid-container{
+
+justify-items: start // center // end;
+align-items: start // center // end
+
+Defaultowo posiadaja one wartosc streetch
+}
+
+.grid-item1{
+
+align-self: top // center // end      (Vertical)
+justify-self: top // center // end    (Horizontal)
+
+}
+
+
+
 */
+
 
 
 
