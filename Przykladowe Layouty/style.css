@@ -1,0 +1,320 @@
+                        /* NAVIGACJA + SEKCJA GLOWNA  */
+
+
+*{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+h1{
+    font-size: 2.2em;
+}
+
+
+
+
+
+
+/* MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
+
+
+
+
+
+    
+
+    #first-section-wrapper{
+        margin-left: 5%;
+        margin-right: 5%;
+     }
+
+                /*  NAWIGACJA !!! */
+
+#main-nav{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.netguru-icon{
+    color: white;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+
+}
+.netguru-icon a{
+    width: 45px;
+    height: 30px;
+    font-size: 35px;
+    position: relative;
+    left: 15px;
+    
+}
+
+.menu-bar{
+    color: black;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    line-height: 10px;
+    position: relative;
+    right: 7px;
+}
+.menu-bar span{
+    position: relative;
+    height: 10px;;
+    top: 15px;
+}
+.menu-bar span p{
+    font-weight:bolder;
+}
+.menu-bar span p:hover{
+    cursor: pointer;
+}
+
+
+                        /* GLOWNA SEKCJA */
+
+#first-section-wrapper{
+    margin-top: 8rem;
+}
+
+#main-section{
+    display: grid;
+    text-align: center;
+}
+
+                    /* GLOWNA SEKCJA - Header */
+
+
+
+.innovation-fire{
+    color: rgb(17, 204, 0);
+}
+
+.main-section-header-description{
+    display: block;
+    margin-top: 25px;
+    color: grey;
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+                    /* GLOWNA SEKCJA - BOXY */
+
+.main-section-container{
+    display: grid;
+    margin-top: 6vh;
+    justify-content: center;
+
+}
+
+.box{
+    min-width: 280px;
+    max-width: 382px;
+    height: 287.5px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 2%;
+}
+.box:hover{
+    box-shadow: 0px 0px 30px 1px rgb(238, 238, 238);
+}
+.box-a{
+    text-decoration: none;
+    color: black;
+}
+
+ .box-h2{
+     font-size: 13px;
+     padding: 40px 20px 20px 20px;
+     letter-spacing: 1px;
+
+ }
+ .box-h3{
+     font-size: 22px;
+ }       
+ .box-describtion{
+    font-family: helvetica;
+    font-size: 15px;
+    color: rgb(97, 97, 97);
+    font-weight: lighter;
+    padding: 20px 25px 0 25px;
+    line-height: 25px;
+    height: 50px;
+    margin-bottom: 20%;
+ }
+
+ .read-magazine-div{
+    bottom: 2px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 9px;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+ }
+.read-magazine{
+    padding-top: 0.1rem;
+}
+
+ .read-magazine2{
+   font-weight: lighter;
+   color: #ff4d6d;
+ }
+
+ .h2-1, .rd1{
+    color: #ff4d6d;
+ }
+ .h2-2, .rd2{
+    color: #3f89ff;
+ }
+ .h2-3, .rd3{
+    color: #bc9c5f;
+ }
+ .h2-4, .rd4{
+    color: #f48e41;
+ }
+ .h2-5, .rd5{
+    color: #7b008f;
+ }
+ .h2-6, .rd6{
+    color: #fac303;
+ }
+ .h2-7, .rd7{
+    color: #4cc9f0;
+ }
+ .h2-8, .rd8{
+    color: #b17df9;
+ }
+
+ @media screen and (min-width: 490px){ 
+    #first-section-wrapper{
+        margin-left: 10%;
+        margin-right: 10%;
+     }
+}
+/* MOBILE END MOBILE END MOBILE END MOBILE END MOBILE END MOBILE END  */
+
+
+
+
+
+
+/* TABLET  TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET */
+
+
+@media only screen and (min-width: 768px){
+    #main-nav{
+        height: 70px;
+    }
+    .menu-bar span{
+        top: 18px;
+    }
+    #first-section-wrapper{
+        margin-left: 5%;
+        margin-right: 5%;
+     }
+
+
+    .main-section-container{
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto auto;
+        grid-gap: 40px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1024px){
+    #first-section-wrapper{
+        margin-top: 10rem;
+    }
+    #main-nav{
+
+        /* display: grid; */
+        /* grid-template-columns: 13vw 3vw 3vw 3vw 6vw 3vw 3vw 3vw 3vw auto; */
+        /* align-items: center; */
+        /* font-size: 14px; */
+        /* width: 100%; */
+
+
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #main-nav img{
+        content: url("images/logo2.png");
+    } 
+    
+    .netguru-icon{
+        position: static;
+        width: 150px;
+    }
+
+    .services{
+        grid-template-columns: 2;
+    }
+
+.main-nav-desktop{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto ;
+    align-items: center;
+    grid-column-gap: 40px;
+}
+
+.services::after{
+    content: 'Services';
+    width: 60px;
+}
+.industries::after{
+    content: 'Industries';
+    width: 60px;
+}
+.clients::after{
+    content: 'Clients';
+    width: 60px;
+}
+.about-us::after{
+    content: 'About-us';
+    width: 60px;
+}
+.insights::after{
+    content: 'Insights';
+    width: 60px;
+}
+.resources::after{
+    content: 'Resources';
+    width: 60px;
+}
+.careers::after{
+    content: 'Careers';
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+    
+}
+
