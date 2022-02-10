@@ -1,0 +1,94 @@
+
+.title{
+    font-size: 6rem;
+}
+
+.subtitle{
+    font-size: 4rem;
+}
+
+
+
+@media all and (max-width: 500px) {    /*wszystkie szerokosci az do 500px maja wplyw na elementy ponizej */
+    *{
+        color: blue !important;
+    }
+}
+
+@media print{    /* Za kazdym razem gdy bedziemy cos chcieli wydrukowac, czcionka zmieni kolor */
+    *{
+        color: green;
+    }
+}
+
+*{
+    color: red;
+}
+
+
+@media (orientation: landscape) and (max-width: 500px){
+    .title p{ 
+        color: green !important;
+    }
+}
+
+@media (orientation: portrait){
+    .subtitle h2{
+        color: yellow;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#notes{
+    position: relative;
+    bottom: 0;
+    font-size: 14px;
+}
+.notes2 p{
+    font-size: 14px !important;
+    margin: 0;
+}
+.notes2 p b{
+    font-size: 14px !important;
+}
+.notes2{
+    font-size: 14px;
+}
