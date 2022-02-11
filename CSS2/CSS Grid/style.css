@@ -7,6 +7,15 @@
     /* grid-row-gap: 20px; */
     /* grid-column-gap: 20px; */
     grid-gap: 20px;
+<<<<<<< HEAD
+    grid-template-areas: "header";
+}
+
+.grid-item-1{
+    background-color: red;
+}
+
+=======
     /* grid-template-areas:
     "header header"
     "sidebar content"
@@ -47,6 +56,7 @@
     background-color: yellow;
     align-self: end;
 }
+>>>>>>> layouty
 
 
 
@@ -106,6 +116,8 @@ grid-gap: 20px;          - zyskujemy 20px odstepu miedzy wierszami i kolumnami
 
     6. GRID-TEMPLATE-ARES - ZEZWALA NA DEFINIOWANIE WIERSZY ZA POMOCA PRZYPISYWANIA IDENTYFIKATOROW
 
+<<<<<<< HEAD
+=======
 grid-template-areas: "header header" - 2 kolumny przez header
                      "sidebar content" - W kontenerze mozemy ustalic ile kolumn i wierszyma byc zajetych przez opisanego diva
                      "sidebar content" - 2 wiersze przez sidebar i 2 przez content (1div = 2xsidebar i 1div = 2x content)
@@ -166,6 +178,7 @@ justify-self: top // center // end    (Horizontal)
 
 
 
+>>>>>>> layouty
 */
 
 
@@ -177,7 +190,10 @@ justify-self: top // center // end    (Horizontal)
 
 
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> layouty
 .notes2{
     color: white;
 }
